@@ -3,7 +3,9 @@ import Card from './components/card'
 const App = () => {
   return (
     <div>
-    <Card />
+    <Card user = "John" age = {25}/>
+    <Card user = "aditya" age = {28}/>
+    
     </div>
   )
 }

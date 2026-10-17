@@ -1,7 +1,9 @@
-function card() {
+function card(props) {
+  console.log(props)
   return <div className="card">
-    <h1>Hello World</h1>
-    <p>This is a card component</p>
+    
+    <h1>Hello World for {props.user}</h1>
+    <p>age is {props.age}</p>
   </div>
 }
 
